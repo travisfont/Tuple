@@ -4,14 +4,14 @@ A soft implementation of tuples for PHP 8.4+ providing immutable, type-safe coll
 
 ## Features
 
-- ✅ **Immutability** - Once created, tuples cannot be modified
-- ✅ **Type Safety** - Optional strict type checking with TypedTuple
-- ✅ **Functional Access** - No array syntax; use get(), map(), or destructure()
-- ✅ **Iteration** - Full Iterator support for foreach loops
-- ✅ **Destructuring** - Easy unpacking with list() syntax
-- ✅ **Functional Methods** - map(), filter(), and more
-- ✅ **JSON Serialization** - Works seamlessly with json_encode()
-- ✅ **Modern PHP** - Uses PHP 8.4 features like named arguments
+- **Immutability** - Once created, tuples cannot be modified
+- **Type Safety** - Optional strict type checking with TypedTuple
+- **Functional Access** - No array syntax; use get(), map(), or destructure()
+- **Iteration** - Full Iterator support for foreach loops
+- **Destructuring** - Easy unpacking with list() syntax
+- **Functional Methods** - map(), filter(), and more
+- **JSON Serialization** - Works seamlessly with json_encode()
+- **Modern PHP** - Uses PHP 8.4 features like named arguments
 
 ## Installation
 
