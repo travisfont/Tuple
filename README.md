@@ -205,6 +205,10 @@ $clone = clone $tuple;  // Error!
 
 This design enforces functional programming patterns and makes your code more explicit about data access.
 
+See [Tuple Access Patterns Demo.md](Tuple%20Access%20Patterns%20Demo.md) for a detailed demonstration of allowed and forbidden patterns.
+
+For a comprehensive list of real-world usage scenarios, see [Tuple Cookbook Examples.md](Tuple%20Cookbook%20Examples.md).
+
 ## Why Use Tuples?
 
 1. **Type Safety** - Ensure data integrity with typed tuples

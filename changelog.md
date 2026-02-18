@@ -18,3 +18,4 @@ All notable changes to this project will be documented in this file.
     - Use the new `TypedTuple::create()` method.
     - Fixed a syntax error in `access_patterns_demo.php` regarding immediate closure invocation.
 - **Validation**: Enforced that `Tuple::make()` requires at least one argument, throwing `ArgumentCountError` otherwise.
+- **Documentation**: Converted `access_patterns_demo.php` and `examples.php` into Markdown documentation files (`Tuple Access Patterns Demo.md` and `Tuple Cookbook Examples.md`) and linked them in `README.md`.
