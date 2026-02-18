@@ -39,6 +39,9 @@ class Tuple implements Countable, Iterator, JsonSerializable
      */
     public static function make(mixed ...$elements): Tuple
     {
+        if (empty($elements)) {
+            throw new \ArgumentCountError("Tuple::make() requires at least one argument");
+        }
         return new self(...$elements);
     }
 

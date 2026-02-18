@@ -17,3 +17,4 @@ All notable changes to this project will be documented in this file.
     - Use Composer's `vendor/autoload.php` instead of manual `require_once`.
     - Use the new `TypedTuple::create()` method.
     - Fixed a syntax error in `access_patterns_demo.php` regarding immediate closure invocation.
+- **Validation**: Enforced that `Tuple::make()` requires at least one argument, throwing `ArgumentCountError` otherwise.

@@ -20,6 +20,12 @@ class TupleTest extends TestCase
         $this->assertEquals(3.14, $tuple->get(2));
     }
 
+    public function testCannotCreateEmptyTuple(): void
+    {
+        $this->expectException(\ArgumentCountError::class);
+        Tuple::make();
+    }
+
     public function testTupleIsImmutable(): void
     {
         $tuple = Tuple::make(1, 2, 3);
